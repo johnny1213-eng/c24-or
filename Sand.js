@@ -1,4 +1,4 @@
-class Rubber{
+class Sand{
 	constructor(x,y,r)
 	{
 	// assign options to the rubber ball
@@ -16,13 +16,13 @@ density:1,
 	}
 	display()
 	{
-			var rubberpos=this.body.position;		
+			var sandpos=this.body.position;		
 			push()
-			translate(rubberpos.x, rubberpos.y);
+			translate(sandpos.x, sandpos.y);
 			rectMode(CENTER)
 			strokeWeight(4);
 			stroke("black");
-			fill("darkblue");
+			fill("red");
 			//draw the ellipse here to display the rubber ball
 ellipse(0,0,this.r,this.r);
 			pop()
